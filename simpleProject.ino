@@ -61,15 +61,15 @@ void task1()
 
         // Evento 2
         if (btn1State == LOW)
-            digitalWrite(ledRed, HIGH);
+            digitalWrite(ledRed, LOW);
         // Evento 3
         if (btn2State == LOW)
             digitalWrite(ledGreen, HIGH);
         // Evento 4
-        if (btn3State == LOW)
-            digitalWrite(ledBlue, HIGH);
+        if (btn3State == HIGH)
+            digitalWrite(ledBlue, LOW);
         // Evento 5
-        if (btn4State == LOW)
+        if (btn4State == HIGH)
             digitalWrite(ledYellow, HIGH);
 
         break;
